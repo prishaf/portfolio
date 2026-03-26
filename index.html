@@ -606,7 +606,7 @@ section{position:relative;overflow:hidden;}
     <!-- PROJECT 2 -->
     <div class="proj-row" onclick="toggleProject('p2')">
       <div class="proj-num">02</div>
-      <div class="proj-name">FitPad — Smart Fitness App</div>
+      <div class="proj-name">Mr. Muscle — Smart Fitness App</div>
       <div class="proj-tags">
         <div class="proj-tag">Figma</div>
         <div class="proj-tag">UI/UX</div>
@@ -935,7 +935,7 @@ document.addEventListener('mousemove', function(e) {
   var cardDefs = [
     { title:'EXPERIENCE',       sub:'2 Internships · 2025',  bg:'#0d0d0d', fg:'#e8ff00', pat:'exp',      link:'internships' },
     { title:'FRAUD DETECTION',  sub:'AI Pipeline · Kafka',   bg:'#080814', fg:'#ffffff', pat:'fraud',    link:'https://github.com/prishaf/-ai-fraud-detection-system', external:true },
-    { title:'FITPAD APP',       sub:'Wellness · UI/UX',      bg:'#111',    fg:'#e8ff00', pat:'fitpad',   link:'projects'    },
+    { title:'MR. MUSCLE APP',       sub:'Wellness · UI/UX',      bg:'#111',    fg:'#e8ff00', pat:'fitpad',   link:'projects'    },
     { title:'ABOUT ME',         sub:'Mumbai · CGPA 8.68',    bg:'#e8e5df', fg:'#111111', pat:'about',    link:'about'       },
     { title:'ACADEMICS',        sub:'CGPA 8.68 · IoT · CB',  bg:'#0a0a14', fg:'#aabbff', pat:'academics',link:'about'       },
     { title:'SKILLS',           sub:'Design · AI · Data',    bg:'#111',    fg:'#e8ff00', pat:'skills',   link:'skills'      },
@@ -951,7 +951,7 @@ document.addEventListener('mousemove', function(e) {
     ctx.save(); ctx.beginPath(); ctx.rect(0,0,cw,imgH); ctx.clip();
     var p=def.pat;
 
-    /* ── FITPAD: real screenshot with glassy frame ── */
+    /* ── MR. MUSCLE: real screenshot with glassy frame ── */
     if(p==='fitpad'){
       /* Gradient bg */
       var gb=ctx.createLinearGradient(0,0,cw,imgH);
@@ -978,7 +978,7 @@ document.addEventListener('mousemove', function(e) {
         ctx.beginPath(); ctx.roundRect(dx,dy,dw,dh,14); ctx.stroke();
       } else {
         ctx.font='700 28px sans-serif'; ctx.fillStyle='#e8ff00'; ctx.textAlign='center';
-        ctx.fillText('FitPad',cw/2,imgH/2);
+        ctx.fillText('Mr. Muscle',cw/2,imgH/2);
       }
       /* Ambient glow */
       var ga=ctx.createRadialGradient(cw/2,imgH,0,cw/2,imgH,cw*0.7);
